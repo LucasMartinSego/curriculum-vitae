@@ -1,6 +1,6 @@
 // Experience.js
 import React from 'react';
-import Card from './Card';
+import Card from '../Card/Card';
 import './Experience.css';
 
 const Experience = () => {

@@ -1,13 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Header from './components/Header';
-import Experience from './components/Experience';
-import Education from './components/Education';
-import Footer from './components/Footer';
-import Skills from './components/Skills';
-import AboutMe from './components/AboutMe';
-import Detail from './components/Detail';
-import Home from './components/Home';
+import Header from './components/Header/Header';
+import Experience from './components/Experience/Experience';
+import Education from './components/Education/Education';
+import Footer from './components/Footer/Footer';
+import Skills from './components/Skills/Skills';
+import AboutMe from './components/AboutMe/AboutMe';
+import Detail from './components/Detail/Detail';
+import Home from './components/Home/Home';
 import './App.css';
 
 function App() {

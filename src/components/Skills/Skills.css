@@ -36,6 +36,12 @@
     color: #00bfff; /* Color de los íconos */
 }
 
+/* Añadir esta regla para centrar el texto */
+.card li span {
+    flex: 1; /* Permite que el texto ocupe el espacio restante */
+    text-align: center; /* Centra el texto */
+}
+
 .card li:hover {
     background-color: #e0e0e0; /* Color de fondo al pasar el ratón */
 }
