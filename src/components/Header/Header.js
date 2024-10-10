@@ -1,5 +1,5 @@
+// Header.js
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => {
@@ -19,28 +19,6 @@ const Header = () => {
                     <i className="fa fa-github" aria-hidden="true"></i>
                 </a>
             </div>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Inicio</Link>
-                    </li>
-                    <li>
-                        <Link to="/aboutme">Presentación</Link>
-                    </li>
-                    <li>
-                        <Link to="/experience">Experiencia</Link>
-                    </li>
-                    <li>
-                        <Link to="/education">Educación</Link>
-                    </li>
-                    <li>
-                        <Link to="/skills">Habilidades</Link>
-                    </li>
-                    <li>
-                        <Link to="/detail">Detalles</Link>
-                    </li>
-                </ul>
-            </nav>
         </header>
     );
 };

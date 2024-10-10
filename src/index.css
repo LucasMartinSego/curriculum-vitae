@@ -6,15 +6,14 @@ body {
 }
 
 .App {
-  max-width: 100%; /* Cambia el max-width a un porcentaje para pantallas más pequeñas */
-  margin: 0 auto; /* Asegura que se centre */
+  max-width: 80%; 
+  margin: auto auto; 
   padding: 20px;
   background: white;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  overflow-x: hidden; /* Evita el desbordamiento horizontal */
-  box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
-}
+  overflow-x: hidden; 
+  box-sizing: border-box; }
 
 .container {
   display: flex;
@@ -33,11 +32,10 @@ section {
   border: 1px solid #ddd;
   border-radius: 5px;
   background: #fafafa;
-  width: 100%; /* Asegura que ocupe el ancho disponible */
-  box-sizing: border-box; /* Evita desbordamientos */
+  width: 100%; 
+  box-sizing: border-box; 
 }
 
-/* Estilo para encabezados */
 h2 {
   color: #007acc;
 }

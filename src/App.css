@@ -2,45 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh; /* Mantiene el alto mínimo */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.5rem; /* Tamaño base para móviles */
-  color: white;
-  padding: 1rem; /* Espacio alrededor del contenido */
-}
-
-.App-header h1 {
-  font-size: 2rem; /* Tamaño de texto para móviles */
-}
-
-.App-header h4 {
-  font-size: 1.5rem; /* Tamaño de texto para móviles */
-}
-
-.App-header p {
-  font-size: 1rem; /* Tamaño de párrafo para móviles */
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 @keyframes show {
   from {
     opacity: 0;

@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import './Card.css';
 
-const Card = ({ title, children }) => {
+const Card = ({ title, children, viewTransitionName }) => {
   // Reemplaza caracteres no válidos para el selector
   const sanitizedTitle = title.replace(/[\s|]+/g, '-').toLowerCase();
 
@@ -34,7 +34,7 @@ const Card = ({ title, children }) => {
   }, [sanitizedTitle]);
 
   return (
-    <div className={`div-animation card card-${sanitizedTitle}`}>
+    <div className={`div-animation card card-${sanitizedTitle}`} style={{ viewTransitionName }}>
       <h3>{title}</h3>
       {children}
     </div>
