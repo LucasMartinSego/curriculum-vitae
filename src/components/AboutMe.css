@@ -1,0 +1,11 @@
+.about-me h2 {
+    text-align: center; /* Centra el título */
+    color: #282c34; /* Color del título */
+    font-size: 2rem; /* Tamaño del título */
+}
+
+.about-me p {
+    line-height: 1.6; /* Espaciado entre líneas */
+    margin: 10px 0; /* Espaciado vertical */
+    font-size: 1rem; /* Tamaño de fuente legible */
+}

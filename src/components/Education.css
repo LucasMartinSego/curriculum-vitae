@@ -1,0 +1,18 @@
+.education div {
+    margin-bottom: 20px;
+}
+
+.education h2 {
+    text-align: center;
+    color: #282c34;
+}
+
+.education h3 {
+    font-size: 1.4em;
+    color: #282c34;
+}
+
+.education p {
+    line-height: 1.6;
+    margin: 10px 0;
+}

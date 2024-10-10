@@ -1,0 +1,24 @@
+.skills h2 {
+    text-align: center; /* Centrar el título */
+    color: #282c34; /* Color para el título */
+    font-size: 2rem; /* Tamaño del título */
+}
+
+.skills ul {
+    list-style-type: none; /* Sin viñetas */
+    padding: 0; /* Sin padding */
+}
+
+.skills li {
+    padding: 10px 0; /* Espacio entre elementos */
+    font-size: 1.1em; /* Tamaño de fuente */
+    display: flex; /* Flex para alinear íconos y texto */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.skills li i {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    margin-left: 10px; /* Margen izquierdo del ícono */
+    font-size: 1.5em; /* Tamaño de los íconos */
+    color: #61dafb; /* Color de los íconos */
+}

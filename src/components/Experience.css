@@ -1,0 +1,18 @@
+.experience div {
+    margin-bottom: 20px; /* Espacio entre cada experiencia */
+}
+
+.experience h2 {
+    text-align: center; /* Centrar el título */
+    color: #282c34; /* Color para los títulos */
+}
+
+.experience h3 {
+    font-size: 1.4em; /* Tamaño de los títulos */
+    color: #282c34; /* Color para los títulos */
+}
+
+.experience p {
+    line-height: 1.6; /* Mejora la legibilidad */
+    margin: 10px 0; /* Espacio entre párrafos */
+}

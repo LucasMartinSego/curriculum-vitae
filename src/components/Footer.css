@@ -1,0 +1,24 @@
+.footer {
+    text-align: center;
+    padding: 20px; /* Espacio alrededor del contenido */
+    background-color: #282c34; /* Fondo oscuro */
+    color: white; /* Color del texto */
+    margin-top: 20px; /* Espacio arriba del pie de página */
+    border-top: 1px solid #ddd; /* Borde superior */
+  }
+  
+  .social-links {
+    margin-top: 10px; /* Espacio arriba de los enlaces sociales */
+  }
+  
+  .social-links a {
+    color: white; /* Color de los enlaces */
+    margin: 0 15px; /* Espacio entre los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    font-size: 1.5em; /* Tamaño más grande para los íconos */
+  }
+  
+  .social-links a:hover {
+    color: #61dafb; /* Color al pasar el mouse */
+  }
+  
