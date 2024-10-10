@@ -7,6 +7,7 @@
     text-align: center;
     box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho total */
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
 }
 
 

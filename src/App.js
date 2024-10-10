@@ -8,7 +8,6 @@ import Skills from './components/Skills';
 import AboutMe from './components/AboutMe';
 import Detail from './components/Detail';
 import Home from './components/Home';
-
 import './App.css';
 
 function App() {

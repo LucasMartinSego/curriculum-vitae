@@ -1,0 +1,15 @@
+/* Card.css */
+.card {
+    margin-bottom: 20px; /* Espacio entre cada experiencia */
+    padding: 15px; /* Espaciado interno */
+    border: 1px solid #ddd; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    background: #fafafa; /* Fondo claro */
+    transition: transform 0.3s, box-shadow 0.3s; /* Animaciones suaves */
+  }
+  
+  .card.animate {
+    transform: scale(1.05); /* Efecto de escala al animar */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra más intensa */
+  }
+  

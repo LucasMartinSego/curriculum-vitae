@@ -1,24 +1,51 @@
-.skills h2 {
-    text-align: center; /* Centrar el título */
-    color: #282c34; /* Color para el título */
-    font-size: 2rem; /* Tamaño del título */
+.card {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.skills ul {
-    list-style-type: none; /* Sin viñetas */
-    padding: 0; /* Sin padding */
+.card h3 {
+    text-align: center;
+    color: #282c34;
+    font-size: 2rem;
+    margin-bottom: 15px;
 }
 
-.skills li {
-    padding: 10px 0; /* Espacio entre elementos */
-    font-size: 1.1em; /* Tamaño de fuente */
-    display: flex; /* Flex para alinear íconos y texto */
-    align-items: center; /* Centrar verticalmente */
+.card ul {
+    list-style-type: none; /* Elimina los bullets predeterminados */
+    padding: 0;
+    text-align: center; /* Centra el contenido de la lista */
 }
 
-.skills li i {
-    margin-right: 10px; /* Espacio entre el ícono y el texto */
-    margin-left: 10px; /* Margen izquierdo del ícono */
-    font-size: 1.5em; /* Tamaño de los íconos */
-    color: #61dafb; /* Color de los íconos */
+.card li {
+    padding: 10px 0px; /* Espacio arriba y abajo */
+    font-size: 1.1em;
+    display: inline-flex; /* Flexbox para alinear los íconos y el texto */
+    align-items: center; /* Centra los íconos verticalmente */
+    justify-content: flex-start; /* Alinea el contenido del li a la izquierda */
+    margin: 0 auto; /* Centra el conjunto ícono-texto */
+    width: 350px; /* Ajusta el ancho para centrar el contenido */
+    transition: background-color 0.3s;
+}
+
+.card li i {
+    margin-right: 10px; /* Añade espacio entre el ícono y el texto */
+    font-size: 1.3em; /* Aumenta el tamaño del ícono */
+    color: #00bfff; /* Color de los íconos */
+}
+
+.card li:hover {
+    background-color: #e0e0e0; /* Color de fondo al pasar el ratón */
+}
+
+.card li:hover i {
+    transform: scale(1.1); /* Escala el ícono al pasar el ratón */
+}
+
+.card p {
+    margin-top: 20px; /* Espacio adicional debajo de la lista */
+    font-size: 1em;
+    text-align: center;
 }

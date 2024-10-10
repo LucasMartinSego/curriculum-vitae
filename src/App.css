@@ -40,3 +40,30 @@
 .App-link {
   color: #61dafb;
 }
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: scale(0.25); /* Cambiado a transform */
+  }
+  to {
+    opacity: 1;
+    transform: scale(1); /* Cambiado a transform */
+  }
+}
+
+/* Estilos para el div con animación, sin activar la animación de inmediato */
+.div-animation {
+  opacity: 0; /* Inicialmente invisible */
+  transform: scale(0.25); /* Inicialmente más pequeño */
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+/* La animación se aplica cuando se añade la clase "animate" */
+.div-animation.animate {
+  opacity: 1;
+  transform: scale(1);
+  animation-name: show;
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+}

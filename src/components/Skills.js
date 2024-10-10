@@ -1,12 +1,12 @@
 import React from 'react';
 import './Skills.css';
-import 'font-awesome/css/font-awesome.min.css'; // Asegúrate de que esté importado
+import 'font-awesome/css/font-awesome.min.css';
+import Card from './Card';
+
 
 const Skills = () => {
     return (
-        <div id="div-animation">
-            <section className="skills common-section">
-            <h2>Habilidades</h2>
+        <Card title="Habilidades">
             <ul>
                 <li><i className="fa fa-code" aria-hidden="true"></i> JavaScript</li>
                 <li><i className="fa fa-code" aria-hidden="true"></i> HTML</li>
@@ -22,8 +22,7 @@ const Skills = () => {
                 Soy autodidacta y tengo la capacidad de aprender rápidamente nuevas tecnologías. 
                 Disfruto colaborar en equipos y tengo un enfoque creativo para resolver desafíos técnicos complejos.
             </p>
-        </section>
-        </div>
+        </Card>
     );
 };
 
