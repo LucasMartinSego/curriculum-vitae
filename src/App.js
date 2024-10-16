@@ -9,6 +9,8 @@ import Skills from './components/Skills/Skills';
 import AboutMe from './components/AboutMe/AboutMe';
 import Detail from './components/Detail/Detail';
 import Home from './components/Home/Home';
+import CardSlider from './components/Responsive Card Slider/CardSlider';
+import Chatbot from './components/Chatbot/Chatbot';
 import './App.css';
 
 function App() {
@@ -26,6 +28,8 @@ function App() {
             <Route path="/skills" element={<Skills />} />
             <Route path="/detail" element={<Detail />} />
           </Routes>
+          <Chatbot />
+          <CardSlider />
           <Footer />
         </div>
       </div>

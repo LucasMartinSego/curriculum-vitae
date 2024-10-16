@@ -7,7 +7,7 @@ const Card = ({ title, children, viewTransitionName }) => {
   const sanitizedTitle = title.replace(/[\s|]+/g, '-').toLowerCase();
 
   useEffect(() => {
-    const handleScrollAnimation = (entries, observer) => {
+    const handleScrollAnimation = (entries) => {
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('animate');
